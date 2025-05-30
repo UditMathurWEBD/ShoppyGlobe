@@ -2,6 +2,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import { RouterProvider , createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './components/404page.jsx'
+import './app.css'
 import { lazy, Suspense } from 'react'
 
 
