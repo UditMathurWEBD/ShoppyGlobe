@@ -1,12 +1,41 @@
-# React + Vite
+# 🛍️ ShoppyGlobe - E-commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a modern and responsive e-commerce application built with **React**, **Redux Toolkit**, and **Tailwind CSS**. It allows users to browse products, search and filter them, add items to the cart, and place orders through a clean and intuitive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+> Add link here once deployed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Features
+
+- ✅ Browse 100+ products using [DummyJSON API](https://dummyjson.com/)
+- 🔍 Real-time search and filter functionality
+- 🛒 Add to Cart with quantity control ( + / - )
+- 📦 Product Detail Page with multiple image support
+- 🧾 Dynamic Cart with total calculation
+- ✅ Protected Checkout page (redirects if cart is empty)
+- 📬 Checkout form with basic validation and order success screen
+- 📱 Fully responsive design using Tailwind CSS
+- ♻️ Lazy loading for product images
+- 🌐 Routing with `react-router-dom`
+- ⚙️ State Management with Redux Toolkit
+
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **React Router**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **DummyJSON API**
+- **Vite**
+
+---
+
+## 📁 Folder Structure
+
