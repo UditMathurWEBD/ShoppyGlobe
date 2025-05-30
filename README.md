@@ -6,7 +6,7 @@ ShoppyGlobe is a modern and responsive e-commerce application built with **React
 
 ## 🚀 Live Demo
 
-> Add link here once deployed.
+> (https://shoppy-globe-a1kx.vercel.app/)
 
 ---
 
