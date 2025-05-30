@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import './app.css'
 import { RouterProvider , createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './components/404page.jsx'
 import { lazy, Suspense } from 'react'
