@@ -78,32 +78,44 @@ function handleSearch(event){
 <p className="mt-2 text-md text-gray-600  sm:max-w-[60%] max-w-[100%]">
   Discover and shop from a wide range of products—all in one place. Add items to your cart, explore detailed product info, and enjoy a seamless checkout experience with <strong>ShoppyGlobe</strong>.
 </p>
-<div className="mb-20 mt-6 flex justify-center items-center gap-4">
+<div className="mb-20 mt-6 flex justify-center items-center gap-4 flex-wrap lg:flex-nowrap">
   <input onChange={handleSearch} className="p-4 border rounded-md text-gray-600 w-[-webkit-fill-available]" type="text" placeholder="Search for products"></input>
-<div className="h-[-webkit-fill-available] place-content-center bg-gray-100 px-5 rounded-md">
-<select onChange={handleFilter} name="Category" id="category">
+<div className="h-[-webkit-fill-available]
+ place-content-center bg-gray-100 
+ rounded-md
+  w-[-webkit-fill-available]
+  lg:w-auto
+  py-5 px-4  lg:px-2 lg:py-0 
+  ">
+<select className="w-[-webkit-fill-available]" onChange={handleFilter} name="Category" id="category">
   <option value="all">All</option>
   {categories.map((c)=>{
     return  <option value={c}>{c}</option>
   })}
 </select>
 </div>
-<div className="flex gap-4 items-center  bg-gray-100 h-[-webkit-fill-available] px-2 rounded-md">
+<div className="flex gap-4 items-center  bg-gray-100 
+h-[-webkit-fill-available]  rounded-md 
+ w-[-webkit-fill-available]
+flex-wrap lg:flex-nowrap
+lg:w-auto
+p-6 lg:px-2 lg:py-0 
+">
   <input
     type="number" 
     placeholder="Min Price"
     onChange={(e) => setMinPrice(e.target.value)}
     value={minPrice}
-    className="p-2 border rounded bg-white"
+    className="p-2 border rounded w-[-webkit-fill-available] bg-white"
   />
   <input
     type="number"
     placeholder="Max Price"
     onChange={(e) => setMaxPrice(e.target.value)}
     value={maxPrice}
-    className="p-2 border rounded  bg-white"
+    className="p-2 border rounded w-[-webkit-fill-available]  bg-white"
   />
-  <button onClick={handlePriceFilter} className="p-2 bg-gray-800 text-white rounded">
+  <button onClick={handlePriceFilter} className="p-2 bg-gray-800 text-white rounded w-[-webkit-fill-available]">
     Apply
   </button>
 </div>
